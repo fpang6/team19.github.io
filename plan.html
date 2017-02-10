@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+
+
+
+<body style="padding-top: 70px; padding-bottom: 70px;">
+
+<div id="logoBox" class="headerBox homeBox col-md-6">
+  <h1>USER STORIES</h1>
+</div>
+
+<!-- Top Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+   
+   <!-- Mobile Nav -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+</div>
+   <!-- Web Nav -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+     	<div class="list_center">
+      		<ul class="nav navbar-nav">
+        	<li class="links"><a id="test" href="index.html">Home<span class="sr-only"></span></a></li>
+       		 <li class ="links"><a href="team.html">Our Team</a></li>
+       		<li class ="links"><a href="software.html"> Software Design</a></li>
+       		<li class ="links"><a href="UI.html"> UI Design</a></li>
+       		<li class ="active links"><a href="plan.html"> Project Plan</a></li>
+      		</ul>
+     	</div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="userStory col-md-6">
+ 	<h3 class="names">LOGGING IN WITH FACEBOOK</h3>
+  <p class="bios"> Users are able to log in with their Facebook account if available. <br>
+  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>Option to sign in with facebook</li>
+			<li>Logs into appropriate account given accurate credentials </li>
+			<li>Able to share events on facebook</li>
+			<li>Able to share events on facebook</li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios">
+			Dependency: Facebook API, Database 
+		</p>
+
+</div>
+<div class="userStory col-md-6">
+  <h3 class="names">LOGGING IN AS GUEST</h3>
+  <p class="bios"> Users are able to use the application as a guest. This will limit the abilities the  users have on the website. <br>
+  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>Able to use site without facebook / as a guest
+		</li>
+			<li>Able to view local events </li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios">
+			Dependency: -
+		</p>
+</div>
+<div class="userStory col-md-6">
+		<h3 class="names">ADDING FRIENDS OFF FACEBOOK/INVITING FRIENDS</h3>
+  <p class="bios">Users can see a list of Facebook friends that use the application and those who do not. Then, they may choose to add current users, invite friends to use the application, or skip the step altogether. <br>
+  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>Accurate list of friends using the application is accurate
+</li>
+			<li>Ability to add them</li>
+			<li>Accurate list of friends who do not use the application</li>
+			<li>Ability to invite them</li>
+			<li>Option to skip this step</li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios">
+			Dependency: Facebook API, Database 
+		</p>
+</div>
+<div class="userStory col-md-6">
+  <h3 class="names">EVENTS WILL LIST WHICH FRIENDS ARE GOING</h3>
+  <p class="bios"> For each event in the Event class, we will be able to see how many friends (from Facebook) is going to the event.<br>
+  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>Accurately gets the event and all of its data
+</li>
+			<li>Correctly identifies if a friend is going to the event
+ </li>
+			<li>Adds up the total of friends going to the event
+</li>
+			<li> - Displays information such as pictures and names of friends attending</li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios"> Dependency: Database </p>
+</div>
+<div class="userStory col-md-6">
+	<h3 class="names">EACH PERSON'S PROFILE WILL LIST THE EVENTS THEY'RE ATTENDING</h3>
+  <p class="bios"> Users can view what events their friends are going to on their dashboard/profile tab. This can only occur if the User and his or her friend are listed as "buddies" on LetsGo<br>
+	  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>Accurately lists the events users have RSVP’d to </li>
+			<li>Only able to see other users events if they are friends</li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios">
+			Dependency: Database 
+		</p>
+</div>
+<div class="userStory col-md-6">
+		<h3 class="names">EVENT REEL ON HOMEPAGE IN A PARTICULAR CITY/RSVP TO EVENTS/INVITE FRIENDS</h3>
+  <p class="bios"> User is able to see local events within their city. Users may RSVP to these events, and may invite friends to view these events. <br>
+  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>Accurate, up to date list of events that are in the city </li>
+			<li>Ability to RSVP to them / add to “basket” </li>
+			<li>Ability to invite friends to look at event </li>
+			<li>Invite is sent to the right friend, with the right event
+</li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios">
+			Dependency: Database 
+		</p>
+</div>
+<div class="userStory col-md-6">
+		<h3 class="names">SEARCH FUNCTIONS TO CHOOSE A LOCATION AND THEME</h3>
+  <p class="bios"> User is able to change the location for which events are shown. User may also look for specific themes for the events. <br>
+  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>The events shown accurately reflect the city the user has chosen</li>
+			<li>The events show on screen accurately reflect the theme the user has searched for </li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios">
+			Dependency: Eventbrite API, Google events API
+		</p>
+</div>
+<div class="userStory col-md-6">
+		<h3 class="names">NOTIFICATIONS</h3>
+  <p class="bios"> User gets notifications of events that their friends have invited you to view <br>
+  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>User is notified if a friend invites them to view an event </li>
+			<li>The notification is to the right event </li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios">
+			Dependency: Database 
+		</p>
+</div>
+
+
+<!-- Bottom Navbar -->
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+ 	<div class="list_center">
+      	
+     	</div>
+  </div>
+</nav>
+
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/bootstrap.js"></script>
+</body>
+
+
+</html>

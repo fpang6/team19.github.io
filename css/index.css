@@ -1,0 +1,261 @@
+/* CSS Document */
+	
+	
+.list_center{
+	display: inline-block;
+	color:  #cdcdcd;	
+	margin: 0;
+    vertical-align:top;
+}
+
+.names{
+	margin:0px;
+}
+
+#UML{
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 1920px;
+	height: 1080px;
+}
+.mainHeader{
+	text-align: center;
+}
+
+.bios{
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-size: 13px;
+	font-weight: 400;
+	color: #cdcdcd;
+
+}
+
+.UItitles{
+	text-align: center;
+
+	
+}
+.UIdesc{
+		margin-bottom: 30px;
+	text-align: center;
+	
+}
+
+
+.homeDesc p{
+	color: #cdcdcd;
+	font-weight: 100;
+}
+
+
+.userStory{
+		color: #cdcdcd;
+	background-color: rgba(42, 42, 42, 0.5);;
+	padding-top:15px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	border-radius: 10px;
+	border: solid #000;
+	border-width: 1 1px;
+	border-color: #cdcdcd;
+
+	margin-bottom: 15px;
+
+}
+
+.headerBox{
+	text-align: center;
+}
+
+.homeBox {
+	color: #cdcdcd;
+	background-color: 	rgba(42, 42, 42, 0.5);
+	
+
+	padding-top:15px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	border-radius: 10px;
+	border: solid #000;
+	border-width: 1 1px;
+	border-color: #cdcdcd;
+
+	margin-bottom: 15px;
+	min-width: 99%;
+}
+
+@media only screen and (min-width: 992px) {
+.imgbox{
+	max-width: 200px;
+	max-width: 24%;
+	min-width: 230px;
+	height: 700px;
+	margin-bottom: 15px;
+	
+}
+	.botimgbox{
+		margin-bottom:0px;
+	}
+	
+.homeBox {
+	
+}	
+	#logoBox{
+	max-height: 86px;
+}
+	.userStory{
+	max-width: 49%;
+			height: 350px;
+	}
+	
+}
+
+
+
+@media only screen and (max-width: 991px) {
+	.img-responsive {
+		float: left;
+		max-height: 300px;
+		margin-right: 5px;
+	}
+	.imgbox{
+	min-height: 337px;
+		margin-bottom: 15px;
+	}
+	.homeBox {
+}	
+		.userStory{
+	min-width: 99%;
+				height: 350px;
+	}
+}
+@media only screen and (max-width: 500px) {
+
+	.userStory{
+		min-width: 99%;
+				height: 495px;
+	}
+}
+
+.imgbox{
+	text-align: left;
+	background-color: rgba(42, 42, 42, 0.5);;
+	padding-top:15px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+
+	border-radius: 10px;
+	border: solid #000;
+	border-width: 1 1px;
+	border-color: #cdcdcd;
+	
+	
+
+}
+
+#logo{
+	float: left;
+}
+p {
+	text-align: left;
+	text-shadow: 1.5px 1.5px #2A2A2A;
+	color: white;
+}
+h3 {
+	font-size: 21.6px;
+	text-align: left;
+    text-shadow: 2px 2px #2A2A2A;
+	color: white;
+	opacity: 1;
+}
+
+.carousel-caption {
+	position:relative;
+	left: auto;
+	right: auto;
+	padding-right:10%;
+	padding-left: 10%;
+	text-align: left;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	padding-top: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+  max-height: 700px;    /* Set slide height here */
+
+}
+
+
+.carousel-control{
+	color: #2A2A2A;
+	opacity: 0.8;
+}
+.carousel-control:focus{
+	color: #2A2A2A;
+	opacity: 0.8;
+}
+
+.carousel-control:hover{
+	color: #2A2A2A;
+	
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+h1{
+	
+	font-size: 50px;
+	color:#cdcdcd;
+	text-shadow: 2px 2px #2A2A2A;
+	margin-top: 0px;
+}
+
+
+
+
+html, body{
+	padding-bottom: 20px;
+	font-size: 400;
+	font-weight: 700;
+	height: 100%;
+	 overflow: auto;
+ 	background: #974547; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#973134,#3D0055); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#973134,#3D0055); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#973134,#3D0055); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#973134,#3D0055 ); /* Standard syntax */
+}
+
+.navbar-default .navbar-nav > .active{
+    color: #cdcdcd;
+ }
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color:#cdcdcd;
+      background:#222222;
+	 
+ }
+.navbar {
+	  text-align: center;
+		text-transform: uppercase;
+      background-color:#2A2A2A;
+ 	 border: 0;
+}
+
+
+.links:hover {
+	background-color:#323232;
+}
+
+.navbar .nav > li > a:hover {
+    color:  #cdcdcd;
+}.navbar .nav > li > a {
+    color:  #cdcdcd;
+}
