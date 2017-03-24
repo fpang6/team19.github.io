@@ -44,7 +44,7 @@
   </div>
 </nav>
 
-
+	<h1>Implemented Features:</h1>
 <div class="userStory col-md-6">
  	<h3 class="names">LOGGING IN WITH FACEBOOK</h3>
   <p class="bios"> Users are able to log in with their Facebook account if available. <br>
@@ -81,6 +81,61 @@
 			Dependency: -
 		</p>
 </div>
+	
+<div class="userStory col-md-6">
+	<h3 class="names">EACH PERSON'S PROFILE WILL LIST THE EVENTS THEY'RE ATTENDING</h3>
+  <p class="bios"> Users can view what events their friends are going to on their dashboard/profile tab. This can only occur if the User and his or her friend are listed as "buddies" on LetsGo<br>
+	  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>Accurately lists the events users have RSVP’d to </li>
+			<li>Only able to see other users events if they are friends</li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios">
+			Dependency: Database 
+		</p>
+</div>
+<div class="userStory col-md-6">
+		<h3 class="names">EVENT REEL ON HOMEPAGE IN A PARTICULAR CITY/RSVP TO EVENTS/INVITE FRIENDS</h3>
+  <p class="bios"> User is able to see local events within their city. Users may RSVP to these events, and may invite friends to view these events. <br>
+  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>Accurate, up to date list of events that are in the city </li>
+			<li>Ability to RSVP to them / add to “basket” </li>
+			<li>Ability to invite friends to look at event </li>
+			<li>Invite is sent to the right friend, with the right event
+</li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios">
+			Dependency: Database 
+		</p>
+</div>	
+<div class="userStory col-md-6">
+		<h3 class="names">NOTIFICATIONS</h3>
+  <p class="bios"> User gets notifications of events that their friends have invited you to view <br>
+  </p>
+	  <h4>Acceptance criteria: </h4>
+		<ul class="bios">
+			<li>User is notified if a friend invites them to view an event </li>
+			<li>The notification is to the right event </li>
+		</ul>
+		<p class="bios">Feasability: High
+
+		</p>
+		<p class="bios">
+			Dependency: Database 
+		</p>
+</div>
+	<h1> Features not Implemented </h1>
+	
+	
 <div class="userStory col-md-6">
 		<h3 class="names">ADDING FRIENDS OFF FACEBOOK/INVITING FRIENDS</h3>
   <p class="bios">Users can see a list of Facebook friends that use the application and those who do not. Then, they may choose to add current users, invite friends to use the application, or skip the step altogether. <br>
@@ -120,41 +175,7 @@
 		</p>
 		<p class="bios"> Dependency: Database </p>
 </div>
-<div class="userStory col-md-6">
-	<h3 class="names">EACH PERSON'S PROFILE WILL LIST THE EVENTS THEY'RE ATTENDING</h3>
-  <p class="bios"> Users can view what events their friends are going to on their dashboard/profile tab. This can only occur if the User and his or her friend are listed as "buddies" on LetsGo<br>
-	  </p>
-	  <h4>Acceptance criteria: </h4>
-		<ul class="bios">
-			<li>Accurately lists the events users have RSVP’d to </li>
-			<li>Only able to see other users events if they are friends</li>
-		</ul>
-		<p class="bios">Feasability: High
 
-		</p>
-		<p class="bios">
-			Dependency: Database 
-		</p>
-</div>
-<div class="userStory col-md-6">
-		<h3 class="names">EVENT REEL ON HOMEPAGE IN A PARTICULAR CITY/RSVP TO EVENTS/INVITE FRIENDS</h3>
-  <p class="bios"> User is able to see local events within their city. Users may RSVP to these events, and may invite friends to view these events. <br>
-  </p>
-	  <h4>Acceptance criteria: </h4>
-		<ul class="bios">
-			<li>Accurate, up to date list of events that are in the city </li>
-			<li>Ability to RSVP to them / add to “basket” </li>
-			<li>Ability to invite friends to look at event </li>
-			<li>Invite is sent to the right friend, with the right event
-</li>
-		</ul>
-		<p class="bios">Feasability: High
-
-		</p>
-		<p class="bios">
-			Dependency: Database 
-		</p>
-</div>
 <div class="userStory col-md-6">
 		<h3 class="names">SEARCH FUNCTIONS TO CHOOSE A LOCATION AND THEME</h3>
   <p class="bios"> User is able to change the location for which events are shown. User may also look for specific themes for the events. <br>
@@ -171,22 +192,7 @@
 			Dependency: Eventbrite API, Google events API
 		</p>
 </div>
-<div class="userStory col-md-6">
-		<h3 class="names">NOTIFICATIONS</h3>
-  <p class="bios"> User gets notifications of events that their friends have invited you to view <br>
-  </p>
-	  <h4>Acceptance criteria: </h4>
-		<ul class="bios">
-			<li>User is notified if a friend invites them to view an event </li>
-			<li>The notification is to the right event </li>
-		</ul>
-		<p class="bios">Feasability: High
 
-		</p>
-		<p class="bios">
-			Dependency: Database 
-		</p>
-</div>
 <div class="userStory col-md-6">
 	<h3 class="names">CONNECTING/SUGGESTING FRIENDS BASED ON COMMON EVENTS</h3> <h6>(Additional Feature for Stage 3)</h6>
   <p class="bios"> Based on previous events that users attended, the application will suggest friends who it thinks you will have common interests with.
